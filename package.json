@@ -1,0 +1,23 @@
+
+{
+  "name": "sub4",
+  "version": "1.4.16",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Desbang/sub4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Desbang/sub4/issues"
+  },
+  "homepage": "https://github.com/Desbang/sub4#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
