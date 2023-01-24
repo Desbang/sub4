@@ -1,22 +1,23 @@
+
 {
+  "name": "sub4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/bot.js",
-    "dev": "env-cmd ts-node-dev src/bot.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "devDependencies": {
-    "@types/express": "^4.17.14",
-    "@types/lodash": "^4.14.188",
-    "@types/node": "^18.11.7",
-    "@types/node-fetch": "^2.6.2",
-    "env-cmd": "^10.1.0",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^4.8.4"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Desbang/sub4.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Desbang/sub4/issues"
+  },
+  "homepage": "https://github.com/Desbang/sub4#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "grammy": "^1.11.2",
-    "lodash": "^4.17.21"
+    "express": "^4.17.1"
   }
 }
