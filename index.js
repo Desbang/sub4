@@ -8,12 +8,12 @@ const bot = new Bot(process.env.dist.node_modules);
 bot.command("start", (ctx) => ctx.reply("Welcome! Up and running."));
 bot.on("message", (ctx) => ctx.reply("Got another message!"));
 
-if (process.env.NODE_ENV === "production") {
+if (process.dist.node_modules.env.NODE_ENV === "production") {
   const app = express();
   app.use(express.json());
   app.use(webhookCallback(bot, "express"));
 
-  const PORT = process.env.PORT || 3000;
+  const PORT = process.dist.node_modules.env.PORT || 3000;
   app.listen(PORT, () => {
     console.log(`Bot listening on port ${PORT}`);
   });
